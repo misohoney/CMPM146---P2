@@ -1,8 +1,8 @@
 from p2_game import Game, State
 from collections import defaultdict
 
-import first_bot as red_bot
-import first_bot as blue_bot
+import uniform_bot as red_bot
+import greedy_bot as blue_bot
 BOTS = {'red': red_bot, 'blue': blue_bot}
 
 rounds = 100
