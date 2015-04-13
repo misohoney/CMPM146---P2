@@ -6,7 +6,7 @@ def think(state, quip):
 	#gets all the current available legal moves
 	legalMoves = state.get_moves() 	
 	#setting highestScore to be the current bot's score
-	highestScore = state.get_score()[state.get_whos_turn()]
+	highestScore = 0
 	#place a random move if all future moves don't improve score
 	greedyMove = random.choice(state.get_moves()) 
 	#start looping through all the available legal moves to look 1 move into the future
